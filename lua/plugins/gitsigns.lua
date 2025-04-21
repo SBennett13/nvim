@@ -6,7 +6,7 @@ return {
       gitsigns.setup({
           current_line_blame = true
       })
-    end
+    end,
     event = { "BufReadPre", "BufNewFile" },
   }
 }
