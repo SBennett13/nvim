@@ -4,8 +4,8 @@
 local keymap = vim.keymap
 
 -- Center after up and down
-keymap.set("n", "<C-d>", "<C-d>nn")
-keymap.set("n", "<C-u>", "<C-u>nn")
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
 
 keymap.set("n", "n", "nzz")
 keymap.set("n", "N", "Nzz")
